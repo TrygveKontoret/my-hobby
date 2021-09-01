@@ -1,0 +1,24 @@
+@use '../../sass/partials/variables';
+@use '../../sass/partials/mixins';
+
+.wrapper {
+    margin: 20px, 0px;
+
+    h2 {
+        text-align: center;
+        margin: 20px;
+    }
+  
+    img {
+        width: 350px;
+    }
+
+    p {
+        @include mixins.text;
+    }
+
+    div {
+        @include mixins.flex-row;
+    }
+}
+
