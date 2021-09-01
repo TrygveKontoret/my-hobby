@@ -13,9 +13,9 @@ function App() {
     <div className="wrapper">
       
         <Header />
-        <Article title='Julius Caesar' img={caesarimg} bodytext={caesar}/>
-        <Article title='Augustus' img={augustusimg} bodytext={augustus}/>
-        <Article title='Mark Antony' img={antoniusimg} bodytext={antonius}/>
+        <Article title='Julius Caesar' img={caesarimg} alt='Julius Caesar' bodytext={caesar}/>
+        <Article title='Augustus' img={augustusimg} alt='Augustus' bodytext={augustus}/>
+        <Article title='Mark Antony' img={antoniusimg} alt='Mark Antony' bodytext={antonius}/>
     </div>
   );
 }
