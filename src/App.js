@@ -6,12 +6,12 @@ import {caesar, augustus, antonius} from './utils/text';
 import augustusimg from './img/Augustus.jpg';
 import caesarimg from './img/caesar.jpg';
 import antoniusimg from './img/Marcus_Antonius.jpg';
+// import Card from './components/card/Card';
 
 
 function App() {
   return (
     <div className="wrapper">
-      
         <Header />
         <Article title='Julius Caesar' img={caesarimg} alt='image of Julius Caesar' bodytext={caesar}/>
         <Article title='Augustus' img={augustusimg} alt='image of Augustus' bodytext={augustus}/>

@@ -1,14 +1,14 @@
 import {wrapper} from './article.module.scss';
+import {SubHeader, Parag} from '../typography/Typography';
 
 const Article = (props) => {
-    const {title, bodytext, img, alt, quote} = props;
+    const {title, bodytext, img, alt} = props;
     return (
         <div className={wrapper}>
-            <h2>{title}</h2>
-            <p>{quote}</p>
+            <SubHeader>{title}</SubHeader>
             <div>
             <img src={img} alt={alt}/>
-            <p>{bodytext}</p>
+            <Parag>{bodytext}</Parag>
             </div>
         </div>
     )
