@@ -5,7 +5,8 @@ export const FormWrapper = styled.form`
     margin: auto;
     border: 2px solid black;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 `;
 
@@ -37,10 +38,16 @@ const Form = () => {
                 <Div>
                     <Label for="firstname">First Name:</Label>
                     <Input type="text" id="firstname"></Input>
+                </Div>
+                <Div>
                     <Label for="lastname">Last name:</Label>
                     <Input type="text" id="lastname"></Input>
+                </Div>
+                <Div>
                     <Label for="email">Email:</Label>
                     <Input type="text" id="email"></Input>
+                </Div>
+                <Div>
                     <Label for="text">Text:</Label>
                     <TextArea type="text" id="text"></TextArea>
                 </Div>
