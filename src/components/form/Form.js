@@ -23,8 +23,12 @@ export const Div = styled.div`
     align-items: flex-start;
     width: 100%;
     margin-top: 20px;
-
 `;
+
+export const TextArea = styled.textarea`
+    width: 100%;
+    height: 100px;
+`
 
 const Form = () => {
     return (
@@ -38,7 +42,7 @@ const Form = () => {
                     <Label for="email">Email:</Label>
                     <Input type="text" id="email"></Input>
                     <Label for="text">Text:</Label>
-                    <Input type="text" id="text"></Input>
+                    <TextArea type="text" id="text"></TextArea>
                 </Div>
             </FormWrapper>
             
